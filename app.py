@@ -39,24 +39,6 @@ if acheivment:
 else:
     st.info("Big or small , every acheivement counts! Share one now! 😍")
 
-# You would need to replace this with your actual watermark image
-# For now, I'm leaving it empty as we don't have the actual watermark
-watermark_base64 = ""
-if watermark_base64:
-    st.markdown(add_bg_from_base64(watermark_base64), unsafe_allow_html=True)
-
-# Title
-st.title("Growth Mindset Challenge with Streamlit | giaic quarter 3")
-
-# User achievement message
-st.markdown('<div class="achievement">i created the project sucessfully.</div>', unsafe_allow_html=True)
-
-# Success message
-st.markdown(
-    '<div class="success-message">🎉 Amazing! You achieved: i created the project sucessfully.</div>',
-    unsafe_allow_html=True
-)
-
 # Motivation button
 st.markdown(
     '<button class="motivation-button">🔥 Need More Motivation?</button>',
